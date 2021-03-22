@@ -2,7 +2,14 @@
 
 Repository for common AI use cases in supply chain, procurement
 
-v 1.0 - Added project to normalize legal entity names of vendors/suppliers. You can utilize your spend data or simply choose a custom vendor dataset to perform legal name normalization.
+v1.0 - Added project to normalize legal entity names of vendors/suppliers. 
+For example,
+
+[DELL FINANCIAL SERVICES, DELL MARKETING LP, DELL NV, DELLEMC, DMI DELL CORP BUS] Becomes DELL
+
+[ORACLE, ORACLE AMERICA INC, ORACLE CORPORATION, ORACLE FINANCIAL SERVICES, ORACLE USA INC] becomes ORACLE
+
+You can utilize your spend data or simply choose a custom vendor dataset to perform vendor name normalization.
 
 ## Requirements
 
