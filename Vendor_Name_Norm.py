@@ -1,8 +1,8 @@
 # Importing the necessary libraries
 import pandas as pd
 import numpy as np
-from Data_preprocessing import read_data, pre_processing, filter_ascii, remove_special_characters, preprocess_text
-from Settings import column_list, pricing_columns, vendor
+from Data_preprocessing import read_data, pre_processing, preprocess_text
+from Settings import column_list, pricing_columns, primary_keys, vendor
 from Feature_engg import spend_agg, standard_name, fuzz_similarity
 from Clustering import company_clusters
 import time
@@ -41,9 +41,9 @@ def vendor_clustering(dataframe):
 def run_program(custom=False):
     if custom == False:
         # Read data
-        df = read_data('po_data.csv')
+        df = read_data('podata.csv')
         # Non-textual data cleansing
-        df_cleaned = pre_processing(df,column_list,pricing_columns)
+        df_cleaned = pre_processing(df, column_list, pricing_columns, primary_keys)
         # Feature engg. through spend aggregation
         df_agg = spend_agg(df_cleaned, vendor, 80.5)
         # Select top spend suppliers
