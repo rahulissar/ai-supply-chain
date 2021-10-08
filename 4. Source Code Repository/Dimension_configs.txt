@@ -1,0 +1,2 @@
+time_dimension = date
+main_dimensions = item,store

@@ -1,0 +1,28 @@
+ERROR: 09/24/2021 02:55:07 An exception of type TypeError occurred. Arguments:
+('join() takes exactly one argument (3 given)',)
+Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath,now,filename)
+TypeError: join() takes exactly one argument (3 given)
+ERROR: 09/24/2021 02:55:07 Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath,now,filename)
+TypeError: join() takes exactly one argument (3 given)
+Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath,now,filename)
+TypeError: join() takes exactly one argument (3 given)
+ERROR: 09/24/2021 02:56:00 An exception of type TypeError occurred. Arguments:
+('join() takes exactly one argument (3 given)',)
+Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath)
+TypeError: join() takes exactly one argument (3 given)
+ERROR: 09/24/2021 02:56:00 Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath)
+TypeError: join() takes exactly one argument (3 given)
+Traceback (most recent call last):
+  File "/Users/rahulissar/Python/eClerx/Inventory Forecasting/4. Source Code Repository/data_export.py", line 48, in export_data
+    destination_file_path = application_directory.join(filepath)
+TypeError: join() takes exactly one argument (3 given)

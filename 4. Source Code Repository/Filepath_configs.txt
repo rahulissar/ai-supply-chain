@@ -1,0 +1,3 @@
+source_data_path = /2. Data/Train
+correlation_plot_path =  /3. Output/Correlation Plots
+signal_file_path = /3. Output/Signal Data/
